@@ -1,0 +1,28 @@
+a{text-decoration: none;color: #ffffff}
+.m-header{width: 100%;height: 60px;background: #27303f;}
+.m-header ul{width: 55%;margin: 0 auto;display: flex}
+.m-header ul .li{line-height: 60px;flex: 1; text-align: center;}
+.m-header ul .active{background: #202833}
+.m-header ul .li .mean-a{display: block;height: 100%;width: 100%;}
+.m-header ul .li .mean-a:hover{background: #344157; color: #49a5f6;transition: all 1s}
+
+.m-header .li-div{ background: #27303f}
+.m-header .li-div .wapper{width: 70%; margin: 0 auto;display: flex}
+.m-header .li-div .wapper-two{width: 40%;margin: 0 auto;}
+.m-header .li-div .wapper-two .two-a{display: block; float: left;line-height: 60px;padding-left: 90px}
+.m-header .li-div .wapper-two .two-a:hover{color: #49a5f6;transition: color 1s;}
+.m-header .li-div .wapper .one{height: 100%;flex: 1;}
+.m-header .li-div .wapper .one span{color: #617895;border-bottom: #617895 solid 1px;padding: 10px 0 10px 0; line-height: 55px;text-align: center;}
+.li-demo{list-style: none; padding-top: 15px}
+.li-demo a:hover{color: #49a5f6;transition: color 1s;}
+
+/*动画下滑*/
+.fade-enter-active  {animation: bounce-in 0.4s;}
+.fade-leave-to{ animation: bounce-in 0.25s reverse;}
+
+.fadeshort-enter-active  {animation: bounce-in-short 1s;}
+.fadeshort-leave-to{ animation: bounce-in-short 0.1s reverse;}
+@keyframes bounce-in { 0% {height: 0;opacity: 0;}
+  100% {height: 200px;opacity: 1;} }
+@keyframes bounce-in-short { 0% {height: 0;opacity: 0;}
+  100% {height: 60px;opacity: 1;} }
